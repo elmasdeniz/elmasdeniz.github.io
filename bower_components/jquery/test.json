@@ -1,0 +1,199 @@
+ {Sergi [{ 
+  id:"SoloSergi 02",
+  name:"Yazsız Yıl",
+  startdate:"08 02 2018",
+  enddate:"24 03 2018",
+  date:"08 03 2018",
+  place: "Pilot Gallery", 
+  city: "İstanbul", 
+  country: "Turkey"
+  role:"artist"
+  artists:"Elmas Deniz"
+  team:["Azra Tuzunoğlu","Amira Arzik"]
+  category:"Solo Sergiler"
+  importance:"01"
+  presreleaseid:"bulten04"
+  mentionedin:"yazisma03","roportaj 02","duzhaber:04"
+
+  }
+  {id:"SoloSergi 01",
+   name:"Seeing The Black Panther"
+   startdate:"2014",https://www.facebook.com/photo.php?fbid=10155182222787155&set=a.124168587154.114004.688237154&type=3
+   enddate:"2014",
+   date:"2018",
+   place:"Pilot Gallery",
+   city:"istanbul",
+   country:"Turkey"
+   role:"artist"
+   artists:"Elmas Deniz"
+   team:["Azra Tuzunoğlu","Amira Arzik"]
+   category:"Solo Sergiler"
+   importance:"01"
+   presreleaseid:"bulten04"
+   mentionedin:"yazisma03","roportaj 02","duzhaber:04"
+   }
+   {id:"Grupsergi 01"
+   name:"Reevolution"
+   startdate:"30 08 2018",
+   enddate:"24 08 2018",
+   place: "Old Terminus Station ", 
+   city: "Colombo", 
+   country: "Sri Lanka"
+   role:"artist"
+   artists:"Elmas Deniz,"
+   team:"Puja"
+   curators:"Meenika Van Der Porten"
+   cocurator:"Shanika Perera"
+   category:"Grup Sergiler"
+   importance:"01"
+   presreleaseid:"bulten04"
+   mentionedin:"yazisma03","roportaj 02","duzhaber:04"
+ }
+   ]
+
+{Etkinlik [ {
+   id:"Collective Performance 03"
+   name:"Kusla Göz Arasındas"
+   startdate:"05 08 2017",
+   enddate:"08 08 2017",
+   place: "Depo", 
+   city: "İstanbul", 
+   country: "Turkey"
+   role:"artist", "part of Collective"
+   artists:["Elmas Deniz,Selda Asal,Belkıs"]
+   team:"Sis Artist Collective"
+   curators:"Artist Lead"
+   category:"Etkinlik"
+   subcategory:"Performans"
+  importance:"02"
+  }
+ ]
+ }
+
+{Koleksiyon [ { 
+"id":"koleksiyonalımı 01",
+"name":"İnsansız ilk edisyonu",
+"date": "07 03 2018",
+"artwork":"İnsansız",
+"collectionname":"Vehbi Koç Vakfı Güncel Sanat Koleksiyonu",
+"place":"gösterimde değil"
+"city": "İstanbul", 
+"country": "Turkey"
+"sales agent":"Pilot Gallery"
+"category": "Koleksiyon Bilgileri" 
+importance:"02"
+},
+{
+"id":"koleksiyonalımı 02",
+"name":"Panoramanın Altında Unique",
+"artwork":"Panoramanın Altında",
+"exhibition":"14th İstanbul Bienali"
+"collectionname":"Vehbi Koç Vakfı Güncel Sanat Koleksiyonu",
+"date": "12 11 2016",
+"place":"İstanbul Bienali"
+"city": "İstanbul", 
+"country": "Turkey"
+"sales agent":"Pilot Gallery"
+"category": "Koleksiyon Bilgileri"
+importance:"02"
+}
+]
+}
+
+{Röprtaj[
+  { "id":"Elmas Deniz Röportaj 01".,
+  "name":"Umut Vaden Sanatçı",
+  "date": "09 03 2018",
+  "interviewer":"Eray Makal"
+  "role":"interviewed", "artist"
+  "artwork":"Under The Panorama",
+  "exhibition":"İstanbul Bienali",
+  "city": "İstanbul", 
+  "country": "Turkey",
+  "category":"Basın", "Yazılar"
+  "subcategory":"Röportajlar"
+   importance:"01"
+  ]
+} 
+}
+
+{Artwork[
+  { "id":"artwork video 01",
+   "name":"Made To Be Seen",
+   "role":["artist", "author"]
+   "productiondate":"2017",
+   "productionplace":"Sri Lanka",
+   "exhibition":"Yazsız Yıl",
+   "relatedartworks":["Panoramanın Altında","İnsansız"]
+   "supported":"Saha",
+   "edition":"5+1AP"
+    importance:"01"
+ }
+  ]
+}
+
+{Residency [ {
+   id:"  03"
+   name:"IASPIS"
+   startdate:"05 08 2017",
+   enddate:"08 08 2017",
+   date:"03 05 2014"
+   place: "IASPIS", 
+   city: "Stockholm", 
+   country: "Sweden"
+   role:"artist", "studio grand holder"
+   curators:"Lisa Rosendahl"
+   category:"Residency"
+    importance:"01"
+  }
+ ]
+ }
+
+ {Talks[ {
+  "id":"talk 02"
+  name:Inisiyatifler bulusmasi
+  date:"23 07 2017"
+  place:"Kasa Gallery"
+  city:"istanbul"
+  country:"Turkey"
+  role:"Contributor"
+  curators:"Derya Yücel"
+  category:"Talks"
+  subcategory:"Participated Talks"
+  importance:"03"
+
+ }
+
+  ]}
+
+{Text[ {
+  "id":"text 02"
+  name:"13th Istanbul Bienallae Review"
+  date:"23 07 2015"
+  publishedin:"Art Agenda"
+  language:"english"
+  role:"writer", "author"
+  editor:"Jill Winder"
+  category:"Texts"
+  subcategory:"Texts written by Elmas Deniz"
+  importance:"01"
+  related:"Istanbul Biennale"
+ }
+
+  ]}
+
+  20-21 Mayıs tarihlerinde İsveç Konsolosluğu, DEPO ve Galata Rum Okulu’nda gerçekleşecek.
+
+Katılımcı sanatçılar: Fikret Atay, Nancy Atakan, Hera Büyüktaşçıyan, Elmas Deniz, Işıl Eğrikavuk, Katarina Pirak Sikku, Liv Strand, Can Sungu, Lisa Torell, ve Ferhat Özgür
+
+Küratörler: Naz Cuguoğlu ve Susanne Ewerlöf
+
+Elmas Deniz Talk@Dünyada Mekan
+Elmas Deniz Talk
+
+Dünyada Mekan
+
+Hazzopulo Pasajı, No:1 Kat:1, Beyoğlu
+
+26.04.2016, Tuesday, 19:00
+
