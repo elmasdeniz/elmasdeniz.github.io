@@ -8271,7 +8271,9 @@ dl {
   margin-top:1rem;
   margin-left:0rem; 
  }
-
+.fi-star{
+      max-width:9%;
+ }
  
  .fi-book{
       max-width:9%;
