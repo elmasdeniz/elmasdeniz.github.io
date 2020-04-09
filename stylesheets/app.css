@@ -4169,13 +4169,13 @@ label.error {
   display: block;
   text-shadow:0px 0px 0.8px black;
 }
+.no-fancy {
+  text-shadow:none;
+}
 
 /* line 42, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
 .inline-list > li > * {
   display: block;
-}
-#inline-list-modi > li {
-  text-shadow:0px 0px 0.8px darkgray;
 }
 
 /* Foundation Joyride */
