@@ -8281,6 +8281,9 @@ dl {
  .fi-download {
   max-width:9%;
  }
+  .fi-downloadi {
+  max-width:25%;
+ }
  .fi-mail {
   max-width:32%;
  }
