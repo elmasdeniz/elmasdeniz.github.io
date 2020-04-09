@@ -4152,7 +4152,7 @@ label.error {
   color: #f04124;
 }
 .no-fancy {
-  text-shadow:none;
+  text-shadow:none !important;
 }
 
 /* line 48, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
