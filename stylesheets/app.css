@@ -8356,9 +8356,7 @@ only screen and (max-width: 600px) {
   td:nth-of-type(5):before { content: "Subject|Konu"; }
   td:nth-of-type(6):before { content: "Language|Dil";}
 
-  .fi-star{
-      max-width:5%;
- }
+ 
  .fi-book{
       max-width:6%;
  }
