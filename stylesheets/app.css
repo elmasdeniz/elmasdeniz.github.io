@@ -8263,9 +8263,7 @@ dl {
  .fi-sharei{
   max-width:25%;
  }
- .fi-downloadi {
-  max-width:25%;
- }
+ 
  .stickright{
   z-index:999;
   width:100%;
@@ -8274,9 +8272,7 @@ dl {
   margin-left:0rem; 
  }
 
- .fi-star{
-      max-width:8%;
- }
+ 
  .fi-book{
       max-width:9%;
  }
