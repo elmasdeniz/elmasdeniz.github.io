@@ -1,6 +1,7 @@
 @charset "UTF-8";
-@import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,latin-ext);
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
 /* line 287, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-small {
   font-family: "/only screen and (max-width: 40em)/";
@@ -52,7 +53,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif, calibri;
+  font-family: font-family: 'Crimson Text', serif; /*"Open Sans", sans-serif, calibri*/
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -4971,7 +4972,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Open Sans", sans-serif, calibri;
+  font-family: 'Crimson Text', serif; 
 }
 /* line 140, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -5155,7 +5156,7 @@ ul.pagination li {
   padding: 2.5rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Open Sans", sans-serif, calibri;
+  font-family: 'Crimson Text', serif; 
   font-style:italic;
 }
 /* line 54, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
@@ -5172,7 +5173,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child {
   color: #000000;
   font-weight: bold;
-  font-family: "Open Sans", sans-serif, calibri;
+  font-family: 'Crimson Text', serif; 
   text-shadow:0px 0px 1px black;
 
 }
@@ -5348,7 +5349,7 @@ ul.pagination li {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Open Sans", sans-serif, calibri;
+  font-family:'Crimson Text', serif; 
   font-weight: normal;
   font-size: 0.875rem;
   color: #333333;
@@ -5693,7 +5694,7 @@ table tfoot tr td {
   padding-right: 2rem;
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
-  font-family: "Open Sans", sans-serif, calibri;
+  font-family:'Crimson Text', serif; 
   font-size: 1rem;
 }
 /* line 41, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
@@ -5981,7 +5982,7 @@ p aside {
 /* Default header styles */
 /* line 182, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", "Open Sans", sans-serif, calibri;
+  font-family: 'Crimson Text', serif; 
   font-weight: 300;
   font-style: normal;
   color: #222222;
@@ -6563,7 +6564,7 @@ meta.foundation-mq-topbar {
   color: black;
   padding: 12px 0 12px 0;
   padding-left: 23.33333px;
-  font-family:"Open Sans", sans-serif, calibri;
+  font-family:'Crimson Text', serif; 
   font-size: rem-calc(37);
   font-weight: normal;
   background: #333333;
@@ -7752,7 +7753,7 @@ h2 {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Open Sans", sans-serif, calibri;
+  font-family: 'Crimson Text', serif; 
   font-weight: normal;
   font-size: 0.875rem;
   color: lightblue;
@@ -7873,7 +7874,7 @@ h2 {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Open Sans", sans-serif, calibri;
+  font-family:'Crimson Text', serif; 
   font-weight: normal;
   font-size: 0.875rem;
   color: #333333;
@@ -8372,7 +8373,6 @@ only screen and (max-width: 600px) {
  .fi-book{
       max-width:6%;
  }
-}
 
 .fancy{
   text-shadow:0px 0px 1px black;
