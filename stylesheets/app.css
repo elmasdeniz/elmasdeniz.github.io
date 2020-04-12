@@ -4156,10 +4156,6 @@ label.error {
 .no-fancy {
   text-shadow:none !important;
 }
-.fancy{
-  text-shadow:0px 0px 1px black;
-}
-
 
 /* line 48, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
 .inline-list {
@@ -8337,6 +8333,9 @@ dl {
  .inl {
   display: inline-block;
  }
+ .fancy{
+  text-shadow:0px 0px 1px black;
+}
 
  @media
 only screen and (max-width: 600px) {
@@ -8379,6 +8378,9 @@ only screen and (max-width: 600px) {
       max-width:6%;
  }
 
+.fancy{
+  text-shadow:0px 0px 1px black;
+}
 
  
 
