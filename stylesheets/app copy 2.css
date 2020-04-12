@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,latin-ext);
 /* line 287, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-small {
@@ -53,7 +52,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: 'Crimson Text', serif, calibri;
+  font-family: "Open Sans", sans-serif, calibri;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
