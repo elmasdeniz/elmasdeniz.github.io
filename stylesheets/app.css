@@ -5157,8 +5157,7 @@ ul.pagination li {
   padding: 2.5rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: 'Crimson Text', serif; 
-  font-style:italic;
+  font-family: 'Crimson Text', serif;
 }
 /* line 54, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
