@@ -8382,6 +8382,11 @@ only screen and (max-width: 600px) {
   text-shadow:0px 0px 1px black;
 }
 
- 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+.tablet { 
+background-color: red; }
+
+  } /* elmas ekledi min-width 641px and max-width 1024px, use when QAing tablet-only issues */ 
 
 
