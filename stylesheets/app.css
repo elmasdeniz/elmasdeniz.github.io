@@ -8373,9 +8373,14 @@ only screen and (max-width: 600px) {
  .fi-book{
       max-width:6%;
  }
-
+.middiv {
+  border-top: solid 1px gray;
+  clear: both;
+  height: 1px;
+  width: 100%;
+ }
  .lastdiv {
-  border-top: solid 5px black;
+  border-top: solid 1px black;
   clear: both;
   height: 1px;
   width: 100%;
