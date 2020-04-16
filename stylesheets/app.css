@@ -8376,7 +8376,7 @@ only screen and (max-width: 600px) {
 
  .lastdiv {
   border-top: solid 1px black;
-  clear: both;
+ /* clear: both;*/
   height: 1px;
   width: 100%;
  }
