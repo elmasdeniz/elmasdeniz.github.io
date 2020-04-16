@@ -6552,10 +6552,7 @@ meta.foundation-mq-topbar {
 /* line 274, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px gainsboro;
-  clear: both;
-  height: 1px;
-  width: 100%;
+
 }
 /* line 282, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a {
@@ -8375,6 +8372,13 @@ only screen and (max-width: 600px) {
  }
  .fi-book{
       max-width:6%;
+ }
+
+ .lastdiv {
+  border-top: solid 1px black;
+  clear: both;
+  height: 1px;
+  width: 100%;
  }
 
 .fancy{
