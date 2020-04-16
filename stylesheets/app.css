@@ -6841,7 +6841,7 @@ meta.foundation-mq-topbar {
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
-    border-right: solid 1px white;
+    border-right: solid 1px red;
     clear: none;
     height: 70px;
     width: 0;
@@ -8375,8 +8375,8 @@ only screen and (max-width: 600px) {
  }
 
  .lastdiv {
-  border-top: solid 1px black;
- /* clear: both;*/
+  border-top: solid 5px black;
+  clear: both;
   height: 1px;
   width: 100%;
  }
