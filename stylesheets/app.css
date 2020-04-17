@@ -6692,6 +6692,40 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
+/* line 407, oklar elmas yapimi */
+
+i {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 6px;
+}
+
+.righta {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-right: 93.33333px;
+  margin-top: -4.5px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.lefta {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.upa {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.downa {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
 @media only screen and (min-width: 40.063em) {
   /* line 412, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
