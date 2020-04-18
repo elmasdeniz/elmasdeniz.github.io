@@ -6726,7 +6726,7 @@ i {
   -webkit-transform: rotate(45deg);
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 40.063em) and (max-width: 64em){
   /* line 412, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
     background: white;
@@ -8423,5 +8423,4 @@ only screen and (max-width: 600px) {
 .fancy{
   text-shadow:0px 0px 1px black;
 }
-
 
