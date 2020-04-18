@@ -6227,7 +6227,7 @@ blockquote p {
   padding: 0 0.0625rem;
 }
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+@media only screen and (min-width: 40.063em) {
   /* line 379, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
@@ -8424,3 +8424,6 @@ only screen and (max-width: 600px) {
   text-shadow:0px 0px 1px black;
 }
 
+/*@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+}*/
