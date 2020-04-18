@@ -6568,7 +6568,7 @@ meta.foundation-mq-topbar {
 }
 /* line 293, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
-  background: lightblue;
+  background: red;
   font-size: rem-calc(37);
   padding-right: 23.33333px;
   padding-left: 23.33333px;
