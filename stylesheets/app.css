@@ -6227,7 +6227,7 @@ blockquote p {
   padding: 0 0.0625rem;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* line 379, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
@@ -6726,10 +6726,10 @@ i {
   -webkit-transform: rotate(45deg);
 }
 
-@media only screen and (min-width: 40.063em) and (max-width: 74em){
+@media only screen and (min-width: 40.063em){
   /* line 412, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: red;
+    background: white;
     *zoom: 1;
     overflow: visible;
   }
