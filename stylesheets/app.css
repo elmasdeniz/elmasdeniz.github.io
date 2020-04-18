@@ -6628,9 +6628,9 @@ meta.foundation-mq-topbar {
   display: block;
   width: 0;
   height: 0;
-  border: inset 5px;
+ /* border: inset 5px;
   border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
-  border-left-style: solid;
+  border-left-style: solid;*/
   margin-right: 23.33333px;
   margin-top: -4.5px;
   position: absolute;
