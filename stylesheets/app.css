@@ -6714,6 +6714,11 @@ i {
 .lefta {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
+  margin-right: 13.33333px;
+  margin-top: -4.5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
 }
 
 .upa {
