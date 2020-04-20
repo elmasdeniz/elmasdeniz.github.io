@@ -6461,16 +6461,7 @@ meta.foundation-mq-topbar {
 /* line 166, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 a {
   font-weight: normal;
-  color: white;
-  width: 50%;
-  display: block;
-  padding: 0 23.33333px;
-  text-rendering: optimizeLegibility; 
-
-}
-.top-bar .name h1 a span{
-  font-weight: normal;
-  color: red;
+  color: black;
   width: 50%;
   display: block;
   padding: 0 23.33333px;
