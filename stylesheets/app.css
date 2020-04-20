@@ -10492,7 +10492,12 @@ dl {
 }
 
 @media only screen and (max-width: 600px) {
-    table, thead, tbody, th, td, tr {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
         display: block!important;
     }
     thead tr {
@@ -10563,6 +10568,11 @@ dl {
 
 .fancy ul li {
     text-shadow: 0px 0px 1px black;
+}
+
+.pnworks h3 {
+    color: red;
+    margin-top: 1.2rem;
 }
 
 
