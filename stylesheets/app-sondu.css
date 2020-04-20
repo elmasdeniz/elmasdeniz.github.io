@@ -1,7 +1,8 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,latin-ext);
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i&display=swap');
+/*@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,latin-ext);*/
+
 /* line 287, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-small {
   font-family: "/only screen and (max-width: 40em)/";
@@ -53,7 +54,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: 'Crimson Text', serif, calibri;
+  font-family:'Crimson Text', serif; /*"Open Sans", sans-serif, calibri*/
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -4152,6 +4153,9 @@ textarea.error {
 label.error {
   color: #f04124;
 }
+.no-fancy {
+  text-shadow:none !important;
+}
 
 /* line 48, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
 .inline-list {
@@ -4170,6 +4174,8 @@ label.error {
   display: block;
   text-shadow:0px 0px 0.8px black;
 }
+
+
 /* line 42, ../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
 .inline-list > li > * {
   display: block;
@@ -4967,7 +4973,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Open Sans", sans-serif, calibri;
+  font-family: 'Crimson Text', serif; 
 }
 /* line 140, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -5148,11 +5154,10 @@ ul.pagination li {
 .side-nav {
   display: block;
   margin: 0;
-  padding: 2.5rem 0;
+  padding:3rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Open Sans", sans-serif, calibri;
-  font-style:italic;
+  font-family: 'Crimson Text', serif;
 }
 /* line 54, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -5168,7 +5173,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child {
   color: #000000;
   font-weight: bold;
-  font-family: "Open Sans", sans-serif, calibri;
+  font-family: 'Crimson Text', serif; 
   text-shadow:0px 0px 1px black;
 
 }
@@ -5344,7 +5349,7 @@ ul.pagination li {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Open Sans", sans-serif, calibri;
+  font-family:'Crimson Text', serif; 
   font-weight: normal;
   font-size: 0.875rem;
   color: #333333;
@@ -5689,7 +5694,7 @@ table tfoot tr td {
   padding-right: 2rem;
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
-  font-family: "Open Sans", sans-serif, calibri;
+  font-family:'Crimson Text', serif; 
   font-size: 1rem;
 }
 /* line 41, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
@@ -5977,7 +5982,7 @@ p aside {
 /* Default header styles */
 /* line 182, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", "Open Sans", sans-serif, calibri;
+  font-family: 'Crimson Text', serif; 
   font-weight: 300;
   font-style: normal;
   color: #222222;
@@ -6547,10 +6552,7 @@ meta.foundation-mq-topbar {
 /* line 274, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px gainsboro;
-  clear: both;
-  height: 1px;
-  width: 100%;
+
 }
 /* line 282, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a {
@@ -6559,14 +6561,14 @@ meta.foundation-mq-topbar {
   color: black;
   padding: 12px 0 12px 0;
   padding-left: 23.33333px;
-  font-family:"Open Sans", sans-serif, calibri;
+  font-family:'Crimson Text', serif; 
   font-size: rem-calc(37);
   font-weight: normal;
   background: #333333;
 }
 /* line 293, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
-  background: lightblue;
+  background: red;
   font-size: rem-calc(37);
   padding-right: 23.33333px;
   padding-left: 23.33333px;
@@ -6622,13 +6624,13 @@ meta.foundation-mq-topbar {
 }
 /* line 348, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-dropdown > a:after {
-  content: "";
+  /*content: "";*/
   display: block;
   width: 0;
   height: 0;
-  border: inset 5px;
+ /* border: inset 5px;
   border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
-  border-left-style: solid;
+  border-left-style: solid;*/
   margin-right: 23.33333px;
   margin-top: -4.5px;
   position: absolute;
@@ -6690,7 +6692,46 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 40.063em) {
+/* line 407, oklar elmas yapimi */
+
+i {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 6px;
+}
+
+.righta {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-right: 13.33333px;
+  margin-top: -4.5px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.lefta {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin-right: 13.33333px;
+  margin-top: -4.5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.upa {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.downa {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+@media only screen and (min-width: 40.063em){
   /* line 412, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
     background: white;
@@ -7748,7 +7789,7 @@ h2 {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Open Sans", sans-serif, calibri;
+  font-family: 'Crimson Text', serif; 
   font-weight: normal;
   font-size: 0.875rem;
   color: lightblue;
@@ -7787,7 +7828,7 @@ h2 {
 
 /* line 49, ../scss/app.scss */
 #sticky-footer {
-  height: 6.25rem;
+  height: 7.5rem;
   background: #F5F5F5;
   color:  #C8C8C8;
   font-size: 0.5625rem;
@@ -7802,7 +7843,7 @@ h2 {
 /* line 52, ../scss/app.scss */
 .top-bar-section ul {
   background-color: white;
-  font-size: 19px;
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -7869,7 +7910,7 @@ h2 {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Open Sans", sans-serif, calibri;
+  font-family:'Crimson Text', serif; 
   font-weight: normal;
   font-size: 0.875rem;
   color: #333333;
@@ -8264,9 +8305,7 @@ dl {
  .fi-sharei{
   max-width:25%;
  }
- .fi-downloadi {
-  max-width:25%;
- }
+ 
  .stickright{
   z-index:999;
   width:100%;
@@ -8274,20 +8313,21 @@ dl {
   margin-top:1rem;
   margin-left:0rem; 
  }
-
- .fi-star{
-      max-width:8%;
+.fi-star{
+      max-width:9%;
  }
+ 
  .fi-book{
       max-width:9%;
  }
  .fi-download {
   max-width:9%;
  }
+  .fi-downloadi {
+  max-width:25%;
+ }
  .fi-mail {
   max-width:32%;
- }
-
  }
  
 
@@ -8328,6 +8368,92 @@ dl {
  .inl {
   display: inline-block;
  }
+ .fancy{
+  text-shadow:0px 0px 1px black;
+}
+}
+.fancy ul li {
+<<<<<<< HEAD
+    text-shadow: 0px 0px 1px black;
+}
+
+@media only screen and (max-width: 600px) {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block!important;
+    }
+    thead tr {
+        position: absolute!important;
+        top: -9999px;
+        left: -9999px;
+    }
+    tr {
+        border: 1px solid #ccc;
+    }
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 200px;
+        margin-left: 150px;
+    }
+    td:before {
+        position: absolute!important;
+        top: 12px;
+        left: 16px;
+        width: 150px;
+        padding-right: 40px;
+        white-space: nowrap;
+        margin-left: -150px;
+    }
+    td:nth-of-type(1):before {
+        content: "Date|Tarih";
+    }
+    td:nth-of-type(2):before {
+        content: "Title|Başlık";
+    }
+    td:nth-of-type(3):before {
+        content: "Type|Tür";
+    }
+    td:nth-of-type(4):before {
+        content: "Link|Bağlantı";
+    }
+    td:nth-of-type(5):before {
+        content: "Subject|Konu";
+    }
+    td:nth-of-type(6):before {
+        content: "Language|Dil";
+    }
+    .fi-star {
+        max-width: 5%;
+    }
+    .fi-book {
+        max-width: 6%;
+    }
+    .middiv {
+        border-top: solid 1px gray;
+        clear: both;
+        height: 1px;
+        width: 100%;
+    }
+    .lastdiv {
+        border-top: solid 1px black;
+        clear: both;
+        height: 1px;
+        width: 100%;
+    }
+}
+
+.fancy {
+    text-shadow: 0px 0px 1px black;
+=======
+  text-shadow:0px 0px 1px black;
+>>>>>>> parent of 92ae08f... Update app.css
+}
 
  @media
 only screen and (max-width: 600px) {
@@ -8369,13 +8495,35 @@ only screen and (max-width: 600px) {
  .fi-book{
       max-width:6%;
  }
+.middiv {
+  border-top: solid 1px gray;
+  clear: both;
+  height: 1px;
+  width: 100%;
+ }
+ .lastdiv {
+  border-top: solid 1px black;
+  clear: both;
+  height: 1px;
+  width: 100%;
+ }
 }
-
 .fancy{
   text-shadow:0px 0px 1px black;
 }
+.fancy ul li {
+  text-shadow:0px 0px 1px black;
 }
 
- 
+<<<<<<< HEAD
+.pnworks h3 {
+    color: red;
+    margin-top: 1.2rem;
+}
 
 
+=======
+>>>>>>> parent of 92ae08f... Update app.css
+/*@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+}*/
