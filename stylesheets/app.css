@@ -6449,7 +6449,7 @@ meta.foundation-mq-topbar {
 .top-bar .name {
   height: 70px;
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 {
@@ -7842,7 +7842,7 @@ h2 {
 
 /* line 52, ../scss/app.scss */
 .top-bar-section ul {
-  background-color: blue;
+  background-color: white;
   font-size: 20px;
 }
 
