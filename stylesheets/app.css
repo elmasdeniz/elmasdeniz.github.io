@@ -8317,6 +8317,9 @@ dl {
 .fi-star{
       max-width:9%;
  }
+ .fi-external-link {
+  max-width:3%;
+ }
  
  .fi-book{
       max-width:9%;
@@ -8409,6 +8412,9 @@ only screen and (max-width: 600px) {
 
   .fi-star{
       max-width:5%;
+ }
+ .fi-external-link {
+  max-width:3%;
  }
  .fi-book{
       max-width:6%;
